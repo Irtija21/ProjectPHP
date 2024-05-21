@@ -20,7 +20,7 @@ $deleteId = $_REQUEST["id"];
         mysqli_query($conn, $sqlQuery);
         
         echo "<script>alert('Product id: $deleteId Deleted.')</script>";
-        header("location: ./viewProduct.php");
+        // header("location: ./viewProduct.php");
         
 
         ?>

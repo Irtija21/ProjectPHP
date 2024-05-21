@@ -37,7 +37,7 @@ require_once "../dbconnection.php";
                     <td class="border px-2 py-2 text-center"><?php echo $row["name"]; ?></td>
                     <td class="border text-center px-2 py-2"><?php echo $row["Price"]; ?></td>
                     <td class="border text-center px-2 py-2">
-                        <a href="">Edit</a>
+                    <a href="./editProduct.php?id=<?php echo $row["id"]; ?>">Edit</a>
                         /
                         <a href="./deleteProduct.php?id=<?php echo $row["id"]; ?>">Delete</a>
                     </td>
